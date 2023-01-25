@@ -17,7 +17,7 @@ function getInitialTodos() {
 }
 
 const TodoContainer = () => {
-  const [todos, setTodos] = useState(getInitialTodos()); // eslint-disabled-line
+  const [todos, setTodos] = useState(getInitialTodos());
 
   useEffect(() => {
     // storing todos items

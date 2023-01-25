@@ -22,7 +22,7 @@ const InputTodo = ({ addTodoItem }) => {
         title: '',
       });
     } else {
-      alert('Please write item'); // eslint-disabled-line
+      alert('Please write item');
     }
   };
 
